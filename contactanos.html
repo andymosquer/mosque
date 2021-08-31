@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img\img1.png">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Contáctanos</title>
+</head>
+<body>
+    <header>
+        
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark gris scrolling-navbar fixed-top">
+
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" class="logo"  class="d-inline-block align-top" alt="img" loading="lazy">PACIFtours
+                </a>
+             
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation ">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+
+
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+
+                            <a class="nav-link" href="index.html">INICIO
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quienessomos.html">QUIENES SOMOS</a>
+                        </li>
+                        
+                      
+                        <li  class="nav-item dropdown" >
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">DESTINOS TURISTICOS</a>
+                            <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink" id="submenu-index">
+                                <a class="dropdown-item"
+                                    href="https://morromico.com/?lang=es"
+                                    target="_blank" >MORROMICO</a>
+                                <a class="dropdown-item"
+                                    href="https://www.almejal.com.co/atractivos-naturales/parque-nacional-ensenada-de-utria/"
+                                    target="_blank">PNN ÚTRIA</a>
+                                <a class="dropdown-item"
+                                    href="https://colombia.travel/es/choco/playa-guachalito" target="_blank">GUACHALITO</a>
+                                    <a class="dropdown-item"
+                                    href="http://www.experienciacolombia.com/directorio-turistico.php?Colombia=Nuqui(Choco)&Los-Termales---Posada-Turistica&d=308" target="_blank">
+                                POZOS TERMALES</a>
+                                    <a class="dropdown-item"
+                                    href="http://www.nuqui-choco.gov.co/turismo/cabanas-playa-terco" target="_blank">
+                                    PLAYA TERCO</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="actividades.html">ACTIVIDADES</a>
+                        </li>
+                        
+                      
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactanos.html">CONTÁCTANOS</a>
+                        </li>
+                    </ul>
+
+                   
+                </div>
+
+            </div>
+        </nav>
+    
+    </header>
+    <main>
+
+        <!-- formulario -->
+        <div class="container" id="formulario">
+            <div class="row">
+                <div class="col-md-12" align="center">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post">
+                            <fieldset>
+                                <legend class="text-center header">CONTÁCTANOS</legend>
+        
+                                <div class="form-group">
+                                    
+                                    <span class="col-md-1 col-md-offset-2 "><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="fname" name="name" type="text" placeholder="Nombres" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="lname" name="name" type="text" placeholder="Apellidos" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="email" name="email" type="text" placeholder="correo eletronico" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Escriba un mensaje" rows="7"></textarea>
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                    </div>
+                                </div>
+                             
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+     
+
+        <!-- tarjetas -->
+       
+       
+    </div>
+   
+    </main>
+
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</html>
